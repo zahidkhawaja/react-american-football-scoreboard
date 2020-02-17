@@ -13,6 +13,7 @@ function App() {
 
 const deductSeconds = () => seconds > 0 ? setSeconds(seconds -1) : null;
 
+
   return (
     <div className="container">
       <section className="scoreboard">
