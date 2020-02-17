@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./App.css";
 
 const BottomRow = () => {
-  const [quarter, setQuarter] = useState(3);
   return (
     <div className="bottomRow">
       <div className="down">
@@ -19,7 +18,7 @@ const BottomRow = () => {
       </div>
       <div className="quarter">
         <h3 className="quarter__title">Quarter</h3>
-        <div className="quarter__value">{quarter}</div>
+        <div className="quarter__value">3</div>
       </div>
     </div>
   );
